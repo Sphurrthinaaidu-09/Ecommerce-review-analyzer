@@ -1,6 +1,6 @@
 # 📊 Ecommerce Review Sentiment Analysis & Issue Detection System
 
-A Machine Learning-based web application that analyzes customer product reviews to predict sentiment, detect issues, and generate actionable recommendations using NLP techniques.
+Customer Review Sentiment Analysis & Issue Detection System built using Machine Learning with Python, TF-IDF, Logistic Regression, and Streamlit. The project analyzes customer reviews to classify sentiment, identify key product issues, generate actionable recommendations, and provide an interactive analytics dashboard for better decision-making.
 
 ---
 
