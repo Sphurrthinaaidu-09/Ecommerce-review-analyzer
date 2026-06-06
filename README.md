@@ -1,170 +1,85 @@
-# 📊 Ecommerce Review Sentiment Analysis & Issue Detection System.
+📊 Ecommerce Review Intelligence System
 
-AI-powered Sentiment Analysis & Issue Detection using Machine Learning
-
-
----
-
-🚀 Overview
-
-The Ecommerce Review Intelligence System is an end-to-end Machine Learning web application that analyzes customer reviews to extract actionable insights.
-
-It performs:
-
-Sentiment classification (Positive / Negative)
-
-Issue detection using NLP-based keyword mapping
-
-Recommendation generation for product improvement
-
-Interactive analytics via a Streamlit dashboard
-
-
-👉 Goal: Help businesses understand customer pain points at scale.
+Machine Learning–Powered Sentiment Analysis & Issue Detection Platform
 
 
 ---
 
-🧠 Key Capabilities
+<p align="center">
+  <img src="https://img.shields.io/badge/Machine%20Learning-NLP-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge">
+</p><p align="center">
+  🚀 <a href="https://ecommerce-review-analyzer-gurd4tuxeqrcjv3ttmfzz8.streamlit.app/">Live Demo</a> 🚀
+</p>
+---
 
-⚡ Real-time sentiment prediction
+🧠 Overview
 
-🔍 Automated issue detection from text
-
-💡 Smart recommendation engine
-
-📊 Interactive analytics dashboard
-
-🌐 Fully deployed web application
-
+An end-to-end Machine Learning + NLP system that analyzes customer reviews to extract sentiment, detect product issues, and generate actionable business insights.
 
 
 ---
 
-🏗️ System Architecture
+⚡ What This System Does
 
-User Input Review
-        ↓
-Text Preprocessing (Cleaning, Normalization)
-        ↓
-TF-IDF Vectorization
-        ↓
-Machine Learning Model (LogReg / SVM / NB)
-        ↓
-Sentiment Prediction
-        ↓
-Rule-based Issue Detection
-        ↓
-Recommendation Engine
-        ↓
-Streamlit UI Output
+📝 User Review
+      ↓
+🧹 Text Preprocessing
+      ↓
+📊 TF-IDF Feature Extraction
+      ↓
+🤖 ML Model Prediction
+      ↓
+🔍 Issue Detection Engine
+      ↓
+💡 Recommendation System
+      ↓
+🌐 Streamlit Dashboard Output
 
 
 ---
 
-📁 Project Structure
+🎯 Key Features
 
-Ecommerce_Review_Project/
-│
-├── app.py                      # Streamlit application
-├── sentiment_model.pkl        # Trained ML model
-├── tfidf_vectorizer.pkl       # TF-IDF vectorizer
-├── requirements.txt           # Dependencies
-├── README.md                  # Documentation
-│
-├── eda/                       # Exploratory Data Analysis
-└── archive(1)/                # Raw dataset
+✔ Sentiment Classification (Positive / Negative)
+✔ Product Issue Detection (Battery, Performance, Connectivity, etc.)
+✔ Smart Recommendation Engine
+✔ Real-time Prediction Interface
+✔ Interactive Streamlit Dashboard
 
 
 ---
 
 🧠 Machine Learning Pipeline
 
-1. Data Preprocessing
+📦 Data Collection → 🧹 Cleaning → 🔤 TF-IDF → 🤖 Model Training → 📊 Evaluation
 
-Lowercasing
+Models Used:
 
-Noise removal
-
-Text cleaning using regex
-
-Neutral review filtering
-
-
-2. Feature Engineering
-
-TF-IDF Vectorization (top 5000 features)
-
-
-3. Model Training
-
-Logistic Regression (Primary)
+Logistic Regression
 
 Support Vector Machine
 
 Naive Bayes
 
 
-4. Evaluation Metrics
 
-Accuracy
+---
 
-Precision
+📊 Insights Generated
 
-Recall
+🔋 Battery-related complaints are most frequent
 
-F1-score
+⚡ Performance issues dominate negative reviews
+
+📶 Connectivity issues appear in mid-range products
 
 
 
 ---
 
-📊 Results
-
-Logistic Regression achieved the best overall performance
-
-TF-IDF effectively captured semantic importance in reviews
-
-System successfully identifies key customer pain points:
-
-🔋 Battery issues
-
-📶 Connectivity problems
-
-⚡ Performance lag
-
-🛠️ Hardware failures
-
-
-
-
----
-
-⚙️ How It Works
-
-1. User enters a product review
-
-
-2. Text is transformed using TF-IDF
-
-
-3. ML model predicts sentiment
-
-
-4. Rule-based engine detects issue category
-
-
-5. Recommendation system suggests improvement
-
-
-6. Output is displayed via Streamlit UI
-
-
-
-
----
-
-🌐 Live Demo
+🌐 Live Application
 
 👉 Try it here:
 https://ecommerce-review-analyzer-gurd4tuxeqrcjv3ttmfzz8.streamlit.app/
@@ -172,47 +87,33 @@ https://ecommerce-review-analyzer-gurd4tuxeqrcjv3ttmfzz8.streamlit.app/
 
 ---
 
-🖥️ Tech Stack
+🛠️ Tech Stack
 
-Python 🐍
-
-Scikit-learn 🤖
-
-NLP (TF-IDF)
-
-Pandas / NumPy
-
-Streamlit 🌐
-
-Matplotlib
-
+Python | Scikit-learn | NLP | TF-IDF | Streamlit | Pandas | NumPy
 
 
 ---
 
-📈 Business Impact
+📁 Project Structure
 
-Helps companies analyze customer feedback at scale
-
-Identifies product weaknesses early
-
-Improves customer satisfaction through insights
-
-Reduces manual review analysis effort
-
+📦 Ecommerce_Review_Project
+ ┣ 📜 app.py
+ ┣ 📜 sentiment_model.pkl
+ ┣ 📜 tfidf_vectorizer.pkl
+ ┣ 📜 requirements.txt
+ ┣ 📜 README.md
+ ┗ 📂 eda/
 
 
 ---
 
 🚀 Future Improvements
 
-Replace TF-IDF with BERT embeddings
+Upgrade to BERT-based transformer model
 
-Train deep learning classifier (LSTM/Transformers)
+Add real-time database storage
 
-Add database for review storage
-
-Add user authentication system
+Improve UI with advanced analytics dashboard
 
 Deploy on AWS / GCP
 
@@ -223,14 +124,14 @@ Deploy on AWS / GCP
 👨‍💻 Author
 
 Sphurthi Pudupakam
-Aspiring Data Scientist | ML & NLP Enthusiast
+Data Science | Machine Learning | NLP
 
 
 ---
 
 ⭐ If you like this project
 
-Give the repository a ⭐ and feel free to fork it!
+Give it a ⭐ and share it 🚀
 
 
 ---
