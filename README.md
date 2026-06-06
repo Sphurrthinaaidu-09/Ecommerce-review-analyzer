@@ -26,40 +26,28 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 
 📝 User Review
 
-
       ↓
-
       
 🧹 Text Preprocessing
 
-
       ↓
 
-      
 📊 TF-IDF Feature Extraction
 
-
       ↓
-
       
 🤖 ML Model Prediction
 
-
       ↓
-
       
 🔍 Issue Detection Engine
 
-
       ↓
-
-      
+   
 💡 Recommendation System
 
-
       ↓
-
-      
+    
 🌐 Streamlit Dashboard Output
 
 
