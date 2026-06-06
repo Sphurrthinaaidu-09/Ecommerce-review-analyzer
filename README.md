@@ -22,7 +22,7 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 
 ---
 
-⚡ What This System Does
+## ⚡ What This System Does
 
 📝 User Review
       ↓
@@ -41,7 +41,7 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 
 ---
 
-🎯 Key Features
+## 🎯 Key Features
 
 ✔ Sentiment Classification (Positive / Negative)
 ✔ Product Issue Detection (Battery, Performance, Connectivity, etc.)
@@ -68,7 +68,7 @@ Naive Bayes
 
 ---
 
-📊 Insights Generated
+## 📊 Insights Generated
 
 🔋 Battery-related complaints are most frequent
 
@@ -80,7 +80,7 @@ Naive Bayes
 
 ---
 
-🌐 Live Application
+## 🌐 Live Application
 
 👉 Try it here:
 https://ecommerce-review-analyzer-gurd4tuxeqrcjv3ttmfzz8.streamlit.app/
@@ -88,14 +88,14 @@ https://ecommerce-review-analyzer-gurd4tuxeqrcjv3ttmfzz8.streamlit.app/
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Python | Scikit-learn | NLP | TF-IDF | Streamlit | Pandas | NumPy
 
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
 📦 Ecommerce_Review_Project
  ┣ 📜 app.py
@@ -108,7 +108,7 @@ Python | Scikit-learn | NLP | TF-IDF | Streamlit | Pandas | NumPy
 
 ---
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Upgrade to BERT-based transformer model
 
@@ -122,17 +122,17 @@ Deploy on AWS / GCP
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Sphurthi Pudupakam
+### Sphurthi Pudupakam
 Data Science | Machine Learning | NLP
 
 
 ---
 
-⭐ If you like this project
+## ⭐ If you like this project
 
-Give it a ⭐ and share it 🚀
+### Give it a ⭐ and share it 🚀
 
 
 ---
