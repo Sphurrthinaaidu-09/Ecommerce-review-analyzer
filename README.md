@@ -1,4 +1,4 @@
-📊 Ecommerce Review Intelligence System
+# 📊 Ecommerce Review Intelligence System
 
 Machine Learning–Powered Sentiment Analysis & Issue Detection Platform
 
@@ -15,7 +15,7 @@ Machine Learning–Powered Sentiment Analysis & Issue Detection Platform
 ---
 
 
-🧠 Overview
+## 🧠 Overview
 
 An end-to-end Machine Learning + NLP system that analyzes customer reviews to extract sentiment, detect product issues, and generate actionable business insights.
 
@@ -52,11 +52,11 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 
 ---
 
-🧠 Machine Learning Pipeline
+## 🧠 Machine Learning Pipeline
 
 📦 Data Collection → 🧹 Cleaning → 🔤 TF-IDF → 🤖 Model Training → 📊 Evaluation
 
-Models Used:
+### Models Used:
 
 Logistic Regression
 
