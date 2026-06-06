@@ -25,8 +25,8 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 ## ⚡ What This System Does
 
 📝 User Review
+
       ↓
-      
 🧹 Text Preprocessing
 
       ↓
@@ -77,11 +77,11 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 
 ### Models Used:
 
-- Logistic Regression
+Logistic Regression
 
-- Support Vector Machine
+Support Vector Machine
 
-- Naive Bayes
+Naive Bayes
 
 
 
@@ -89,11 +89,11 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 
 ## 📊 Insights Generated
 
-🔋 Battery-related complaints are most frequent
+- Battery-related complaints are most frequent
 
-⚡ Performance issues dominate negative reviews
+- Performance issues dominate negative reviews
 
-📶 Connectivity issues appear in mid-range products
+- Connectivity issues appear in mid-range products
 
 
 
@@ -129,13 +129,13 @@ Python | Scikit-learn | NLP | TF-IDF | Streamlit | Pandas | NumPy
 
 ## 🚀 Future Improvements
 
-Upgrade to BERT-based transformer model
+- Upgrade to BERT-based transformer model
 
-Add real-time database storage
+- Add real-time database storage
 
-Improve UI with advanced analytics dashboard
+- Improve UI with advanced analytics dashboard
 
-Deploy on AWS / GCP
+- Deploy on AWS / GCP
 
 
 
