@@ -24,31 +24,13 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 
 ## ⚡ What This System Does
 
-📝 User Review
-
-      ↓
-🧹 Text Preprocessing
-
-      ↓
-
-📊 TF-IDF Feature Extraction
-
-      ↓
-      
-🤖 ML Model Prediction
-
-      ↓
-      
-🔍 Issue Detection Engine
-
-      ↓
-   
-💡 Recommendation System
-
-      ↓
-    
-🌐 Streamlit Dashboard Output
-
+1. Input: User Review  
+2. Preprocessing: Cleaning + normalization  
+3. Feature Extraction: TF-IDF  
+4. Model Prediction: Sentiment classification  
+5. Issue Detection: Keyword-based mapping  
+6. Recommendation Engine  
+7. Output Display via Streamlit
 
 ---
 
@@ -77,11 +59,11 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 
 ### Models Used:
 
-Logistic Regression
+- Logistic Regression
 
-Support Vector Machine
+- Support Vector Machine
 
-Naive Bayes
+- Naive Bayes
 
 
 
