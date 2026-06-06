@@ -22,15 +22,28 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 
 ---
 
-## ⚡ What This System Does
+## 🧠 What This System Does
 
-1. Input: User Review  
-2. Preprocessing: Cleaning + normalization  
-3. Feature Extraction: TF-IDF  
-4. Model Prediction: Sentiment classification  
-5. Issue Detection: Keyword-based mapping  
-6. Recommendation Engine  
-7. Output Display via Streamlit
+1. 📝 **User Input**  
+   Customer enters a product review in the Streamlit app.
+
+2. 🧹 **Text Preprocessing**  
+   The review is cleaned by removing noise, special characters, and converting text to lowercase.
+
+3. 🔤 **Feature Engineering (TF-IDF)**  
+   Text is transformed into numerical vectors using TF-IDF representation.
+
+4. 🤖 **Sentiment Prediction (ML Model)**  
+   Trained Machine Learning model classifies the sentiment as Positive or Negative.
+
+5. 🔍 **Issue Detection (NLP Rules)**  
+   Keyword-based mapping identifies the product issue category.
+
+6. 💡 **Recommendation Engine**  
+   System generates actionable improvement suggestions based on detected issue.
+
+7. 🌐 **Streamlit Output Layer**  
+   Final results are displayed in an interactive web dashboard.
 
 ---
 
