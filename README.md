@@ -22,6 +22,21 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 
 ---
 
+## 📊 Business Problem Statement
+
+E-commerce companies receive thousands of customer reviews daily, making it difficult to manually analyze feedback at scale.
+
+This project focuses on transforming raw review data into **structured business insights** that help organizations:
+
+- Understand customer sentiment trends  
+- Identify recurring product issues  
+- Detect underlying causes of product dissatisfaction or declining sales through review trend analysis  
+- Reduce manual effort in analyzing customer feedback  
+- Enable data-driven corrective actions to improve product performance and customer satisfaction
+
+
+---
+
 ## 🧠 What This System Does
 
 1. 📝 **User Input**  
@@ -93,13 +108,14 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 
 ## 📊 Insights Generated
 
-- Battery-related complaints are most frequent
+From exploratory data analysis and review patterns:
 
-- Performance issues dominate negative reviews
+- 📉 Majority of negative reviews are driven by battery-related issues  
+- ⚡ Performance issues are more common in mid-range electronic products  
+- 📶 Connectivity issues appear frequently in wireless devices  
+- 😊 Positive reviews are mostly associated with usability and design satisfaction  
 
-- Connectivity issues appear in mid-range products
-
-
+These insights help businesses prioritize product improvements based on customer feedback data.
 
 ---
 
