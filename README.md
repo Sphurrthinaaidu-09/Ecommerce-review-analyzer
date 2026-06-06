@@ -82,6 +82,15 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 
 ---
 
+## 📊 Exploratory Data Analysis
+
+- Analyzed sentiment distribution across customer reviews  
+- Identified most frequent complaint categories in electronics products
+- Observed battery-related issues as the dominant cause of negative feedback
+
+
+---
+
 ## 📊 Insights Generated
 
 - Battery-related complaints are most frequent
