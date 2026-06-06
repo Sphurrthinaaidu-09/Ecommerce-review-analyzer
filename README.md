@@ -25,7 +25,6 @@ An end-to-end Machine Learning + NLP system that analyzes customer reviews to ex
 ## ⚡ What This System Does
 
 📝 User Review
-
       ↓
       
 🧹 Text Preprocessing
