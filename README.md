@@ -37,27 +37,27 @@ This project focuses on transforming raw review data into **structured business 
 
 ---
 
-## 🧠 What This System Does
+##  What This System Does
 
-1. 📝 **User Input**  
+1. **User Input**  
    Customer enters a product review in the Streamlit app.
 
-2. 🧹 **Text Preprocessing**  
+2. **Text Preprocessing**  
    The review is cleaned by removing noise, special characters, and converting text to lowercase.
 
-3. 🔤 **Feature Engineering (TF-IDF)**  
+3. **Feature Engineering (TF-IDF)**  
    Text is transformed into numerical vectors using TF-IDF representation.
 
-4. 🤖 **Sentiment Prediction (ML Model)**  
+4. **Sentiment Prediction (ML Model)**  
    Trained Machine Learning model classifies the sentiment as Positive or Negative.
 
-5. 🔍 **Issue Detection (NLP Rules)**  
+5. **Issue Detection (NLP Rules)**  
    Keyword-based mapping identifies the product issue category.
 
-6. 💡 **Recommendation Engine**  
+6. **Recommendation Engine**  
    System generates actionable improvement suggestions based on detected issue.
 
-7. 🌐 **Streamlit Output Layer**  
+7. **Streamlit Output Layer**  
    Final results are displayed in an interactive web dashboard.
 
 ---
@@ -81,7 +81,7 @@ This project focuses on transforming raw review data into **structured business 
 
 ---
 
-## 🧠 Machine Learning Pipeline
+##  Machine Learning Pipeline
 
 📦 Data Collection → 🧹 Cleaning → 🔤 TF-IDF → 🤖 Model Training → 📊 Evaluation
 
