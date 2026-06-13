@@ -137,10 +137,10 @@ After analysis, users can download fully processed reports containing:
 ## 🔍 Exploratory Data Analysis (EDA)
 
 Several customer behavior patterns were identified during analytics mapping:
-- ✅ Battery-related complaints were among the most frequent negative review categories.
-- ✅ Performance-related issues significantly influenced customer dissatisfaction.
-- ✅ Connectivity problems frequently appeared in wireless devices.
-- ✅ Positive reviews were primarily associated with usability and product experience.
+-  Battery-related complaints were among the most frequent negative review categories.
+-  Performance-related issues significantly influenced customer dissatisfaction.
+-  Connectivity problems frequently appeared in wireless devices.
+-  Positive reviews were primarily associated with usability and product experience.
 
 ### Visualizations Implemented:
 - Employee Attrition Distribution
@@ -207,10 +207,6 @@ This transforms raw customer reviews into strategic business intelligence.
 
 ## 📸 Application Screenshots
 
----
-
-## 📸 Application Screenshots
-
 <details>
 <summary> 1. Individual Review Analysis Terminal (Click to Expand)</summary>
 <p align="center">
@@ -258,6 +254,7 @@ This transforms raw customer reviews into strategic business intelligence.
 ## 📁 Project Structure
 
 Ecommerce_Review_Project/
+
 ├── app.py                  
 ├── eda.py                  
 ├── sentiment_model.pkl     
