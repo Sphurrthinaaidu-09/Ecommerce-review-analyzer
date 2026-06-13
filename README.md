@@ -13,8 +13,6 @@ An end-to-end Natural Language Processing (NLP) and Machine Learning application
 
 ---
 
----
-
 ## 🚀 Project Overview
 
 Modern e-commerce platforms receive thousands of customer reviews every day. While these reviews contain valuable insights, manually analyzing large volumes of feedback is inefficient and often impractical.
@@ -44,7 +42,7 @@ This system helps businesses move from reactive customer support to proactive pr
 
 ## ⚙️ System Workflow
 
-### 📥 Step 1: Customer Review Ingestion
+###  Step 1: Customer Review Ingestion
 The platform supports two modes of analysis.
 
 #### 👤 Individual Review Assessment
@@ -57,21 +55,21 @@ Organizations can upload an entire CSV file containing thousands of customer rev
 
 ---
 
-### 🤖 Step 2: NLP Processing Pipeline
+###  Step 2: NLP Processing Pipeline
 Incoming reviews undergo multiple processing stages.
 - **Text Cleaning:** Converts text to lowercase, removes special characters, and eliminates unnecessary noise.
 - **Feature Engineering:** Customer reviews are converted into numerical representations using **TF-IDF (Term Frequency–Inverse Document Frequency)**, allowing machine learning models to understand textual patterns.
 
 ---
 
-### 🧠 Step 3: Sentiment Prediction Engine
+###  Step 3: Sentiment Prediction Engine
 The processed reviews are passed through trained Machine Learning models (Logistic Regression, Support Vector Machine, or Naive Bayes) to accurately classify the sentiment baseline:
 - 😊 Positive Review
 - 😞 Negative Review
 
 ---
 
-### 🔍 Step 4: Product Issue Detection
+###  Step 4: Product Issue Detection
 For negative reviews, the application performs issue categorization using NLP-based keyword mapping. Detected issue categories include:
 - 🔋 Battery & Charging
 - 🌐 Connectivity
@@ -86,7 +84,7 @@ This helps organizations identify the root causes behind customer dissatisfactio
 
 ---
 
-### 💡 Step 5: Recommendation Engine
+###  Step 5: Recommendation Engine
 The application automatically generates actionable recommendations based on detected issues:
 - **Battery Issues:** *"Improve battery efficiency and charging reliability."*
 - **Performance Issues:** *"Optimize software performance and reduce lag."*
@@ -96,7 +94,7 @@ This transforms raw customer complaints into practical improvement strategies.
 
 ---
 
-### 📊 Step 6: Executive Analytics Dashboard
+###  Step 6: Executive Analytics Dashboard
 For bulk review analysis, the platform generates business-friendly dashboards:
 - **Sentiment Distribution:** Tracks positive vs. negative distributions alongside percentage breakdowns.
 - **Issue Frequency Analysis:** Identifies the most common complaints, product weaknesses, and customer pain points.
@@ -104,7 +102,7 @@ For bulk review analysis, the platform generates business-friendly dashboards:
 
 ---
 
-### 📤 Step 7: Exportable Intelligence Reports
+###  Step 7: Exportable Intelligence Reports
 After analysis, users can download fully processed reports containing:
 - Review Text
 - Predicted Sentiment
