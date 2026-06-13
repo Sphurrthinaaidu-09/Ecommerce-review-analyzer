@@ -9,7 +9,6 @@ Machine Learning–Powered Sentiment Analysis & Issue Detection Platform
   <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge">
 </p><p align="center">
-  🚀 <a href="https://ecommerce-review-analyzer-gurd4tuxeqrcjv3ttmfzz8.streamlit.app/">Live Demo</a> 🚀
 </p>
 
 ---
