@@ -71,14 +71,14 @@ The processed reviews are passed through trained Machine Learning models (Logist
 
 ###  Step 4: Product Issue Detection
 For negative reviews, the application performs issue categorization using NLP-based keyword mapping. Detected issue categories include:
-- 🔋 Battery & Charging
-- 🌐 Connectivity
-- ⚡ Performance
-- 🛠 Hardware Failure
-- 🔄 Compatibility
-- 💰 Price & Value
-- ⭐ Product Quality
-- 🎮 User Interface & Controls
+-  Battery & Charging
+-  Connectivity
+-  Performance
+-  Hardware Failure
+-  Compatibility
+-  Price & Value
+-  Product Quality
+-  User Interface & Controls
 
 This helps organizations identify the root causes behind customer dissatisfaction.
 
