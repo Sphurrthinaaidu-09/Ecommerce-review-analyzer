@@ -171,7 +171,7 @@ Data Science | Machine Learning | NLP
 
 ## ⭐ If you like this project
 
-### Give it a ⭐ and share it 🚀
+### Give it a ⭐ and share it
 
 
 ---
