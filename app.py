@@ -7,25 +7,119 @@ tfidf = joblib.load("tfidf_vectorizer.pkl")
 
 # Issue Detection
 issue_keywords = {
-    "Battery_Charging": ["battery", "charge", "charging", "drain"],
-    "Connectivity": ["connection", "disconnect", "internet", "network"],
-    "Performance": ["slow", "lag", "freeze", "crash"],
-    "Hardware_Failure": ["dead", "died", "broken", "defective"],
-    "Compatibility": ["compatible", "support", "windows", "nexus"],
-    "Price_Value": ["price", "expensive", "money", "worth"],
-    "Product_Quality": ["poor", "terrible", "horrible", "junk"]
+    "Battery_Charging": [
+        "battery", "charge", "charging",
+        "drain", "drains", "drained",
+        "power", "backup", "battery life",
+        "dies", "dead battery"
+    ],
+
+    "Connectivity": [
+        "connection", "connectivity",
+        "disconnect", "disconnecting",
+        "network", "internet",
+        "wifi", "wi-fi",
+        "bluetooth", "signal"
+    ],
+
+    "Performance": [
+        "slow", "lag", "lags",
+        "lagging", "freeze",
+        "freezes", "frozen",
+        "crash", "crashes",
+        "hanging", "hang",
+        "performance"
+    ],
+
+    "Hardware_Failure": [
+        "broken", "defective",
+        "failure", "failed",
+        "stopped working",
+        "dead", "damaged",
+        "malfunction", "faulty"
+    ],
+
+    "User_Interface": [
+        "button", "buttons",
+        "sticky", "stuck",
+        "click", "clicking",
+        "responsive", "unresponsive",
+        "respond", "response",
+        "touch", "input",
+        "control", "controls"
+    ],
+
+    "Display_Issue": [
+        "display", "screen",
+        "pixel", "pixels",
+        "brightness", "flicker",
+        "flickering", "black screen"
+    ],
+
+    "Audio_Issue": [
+        "speaker", "speakers",
+        "sound", "audio",
+        "volume", "microphone",
+        "mic", "noise"
+    ],
+
+    "Compatibility": [
+        "compatible", "compatibility",
+        "support", "windows",
+        "android", "ios",
+        "device", "platform"
+    ],
+
+    "Price_Value": [
+        "price", "pricing",
+        "expensive", "costly",
+        "money", "worth",
+        "overpriced", "value"
+    ],
+
+    "Product_Quality": [
+        "poor quality",
+        "quality", "terrible",
+        "horrible", "junk",
+        "cheap", "flimsy",
+        "disappointed"
+    ]
 }
 
 # Recommendations
 recommendations = {
-    "Battery_Charging": "Improve battery life and charging reliability.",
-    "Connectivity": "Improve network stability and connectivity.",
-    "Performance": "Optimize product performance and speed.",
-    "Hardware_Failure": "Improve product durability and quality testing.",
-    "Compatibility": "Improve compatibility across devices.",
-    "Price_Value": "Review pricing strategy and improve value for money.",
-    "Product_Quality": "Improve overall product quality and customer experience.",
-    "Other": "Further investigation required."
+    "Battery_Charging":
+        "Improve battery life and charging reliability.",
+
+    "Connectivity":
+        "Improve network stability, Wi-Fi, and Bluetooth connectivity.",
+
+    "Performance":
+        "Optimize software performance and reduce lag, crashes, and freezes.",
+
+    "Hardware_Failure":
+        "Improve hardware durability and quality testing.",
+
+    "User_Interface":
+        "Improve button responsiveness, controls, and user interaction experience.",
+
+    "Display_Issue":
+        "Improve display quality, brightness stability, and screen reliability.",
+
+    "Audio_Issue":
+        "Improve speaker output, audio quality, and microphone performance.",
+
+    "Compatibility":
+        "Improve compatibility across devices and operating systems.",
+
+    "Price_Value":
+        "Review pricing strategy and improve value for money.",
+
+    "Product_Quality":
+        "Improve overall product quality and customer experience.",
+
+    "Other":
+        "Further investigation required."
 }
 
 # Detect issue
