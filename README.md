@@ -110,10 +110,10 @@ This project focuses on transforming raw review data into **structured business 
 
 From exploratory data analysis and review patterns:
 
-- 📉 Majority of negative reviews are driven by battery-related issues  
-- ⚡ Performance issues are more common in mid-range electronic products  
-- 📶 Connectivity issues appear frequently in wireless devices  
-- 😊 Positive reviews are mostly associated with usability and design satisfaction  
+- Majority of negative reviews are driven by battery-related issues  
+- Performance issues are more common in mid-range electronic products  
+- Connectivity issues appear frequently in wireless devices  
+- Positive reviews are mostly associated with usability and design satisfaction  
 
 These insights help businesses prioritize product improvements based on customer feedback data.
 
