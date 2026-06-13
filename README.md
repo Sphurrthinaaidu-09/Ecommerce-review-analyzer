@@ -207,31 +207,49 @@ This transforms raw customer reviews into strategic business intelligence.
 
 ## 📸 Application Screenshots
 
+---
+
+## 📸 Application Screenshots
+
 <details>
-<summary>🔍 1. Home Dashboard & Individual Review Analysis (Click to Expand)</summary>
+<summary> 1. Individual Review Analysis Terminal (Click to Expand)</summary>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4a4db3d6-d75c-4f7e-987d-82eab7e7f50e" alt="Home Dashboard" width="85%" style="max-width: 100%; border-radius: 8px;" />
+  <strong>Empty Ingestion Interface:</strong><br>
+  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 03 52 PM" src="https://github.com/user-attachments/assets/4d637489-7da6-449f-98d3-4ff4fca1a308" />
+
+  <br><br>
+  <strong>Real-Time Categorization & Recommendation Output:</strong><br>
+  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 03 52 PM (1)" src="https://github.com/user-attachments/assets/c1c70f76-7677-4798-90e5-590576546aeb" />
 </p>
 </details>
 
 <details>
-<summary>🔋 2. Issue Detection Results & Recommendations (Click to Expand)</summary>
+<summary> 2. Bulk Dataset Upload & Pipeline Execution (Click to Expand)</summary>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/33fd88af-97c8-4bc4-bde3-a4aef38c2ef9" alt="Issue Detection" width="85%" style="max-width: 100%; border-radius: 8px;" />
+  <strong>CSV Dataset Ingestion & Target Column Selection:</strong><br>
+  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 03 52 PM (2)" src="https://github.com/user-attachments/assets/71e5772f-4703-486c-ab2b-85276b766acf" />
+  <br><br>
+  <strong>Batch Processing Completed with Download Utility:</strong><br>
+  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 22 46 PM" src="https://github.com/user-attachments/assets/9a70c8e6-5d95-46ab-9666-ae60dc91ab66" />
 </p>
 </details>
 
 <details>
-<summary>📁 3. Bulk CSV Analysis & Upload Terminal (Click to Expand)</summary>
+<summary> 3. Executive Dashboard Insights & Key Metrics (Click to Expand)</summary>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/61a3d780-8561-4984-91d6-4cf4a877179e" alt="Bulk Analytics File Upload" width="85%" style="max-width: 100%; border-radius: 8px;" />
+  <strong>High-Level Summary Tiles & Sentiment Flags:</strong><br>
+  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 03 52 PM (3)" src="https://github.com/user-attachments/assets/38f396c9-51aa-4aa6-a7d1-9b4c3a2d2c0a" />
 </p>
 </details>
 
 <details>
-<summary>📈 4. Executive Sentiment & Issue Frequency Dashboard (Click to Expand)</summary>
+<summary> 4. Data Visualizations & Trend Analytics (Click to Expand)</summary>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ea0efd79-cca6-43a9-9a7c-f764ce938383" alt="Executive Dashboards" width="85%" style="max-width: 100%; border-radius: 8px;" />
+  <strong>Pareto Distribution of Core Product Weaknesses (Issue Frequency):</strong><br>
+  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 03 52 PM (4)" src="https://github.com/user-attachments/assets/4cb1b79b-ac4b-4a30-a4d2-11ec54731780" />
+  <br><br>
+  <strong>Proportional Macro Sentiment Share (Positive vs. Negative):</strong><br>
+  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 03 52 PM (5)" src="https://github.com/user-attachments/assets/f058d457-4d11-44d8-ace2-281e288eafa0" />
 </p>
 </details>
 
@@ -240,12 +258,14 @@ This transforms raw customer reviews into strategic business intelligence.
 ## 📁 Project Structure
 
 Ecommerce_Review_Project/
-├── app.py                  # Core Streamlit application & interface logic
-├── eda.py                  # Exploratory script configurations
-├── sentiment_model.pkl     # Serialized Machine Learning Classifier
-├── tfidf_vectorizer.pkl    # Trained text feature extractor matrix
-├── requirements.txt        # Application package dependencies
-└── README.md               # Documentation asset
+├── app.py                  
+├── eda.py                  
+├── sentiment_model.pkl     
+├── tfidf_vectorizer.pkl    
+├── requirements.txt       
+└── README.md               
+
+---
 
 ## 🎓 Skills Demonstrated
 
@@ -273,7 +293,8 @@ Through this project, I gained and applied practical experience in:
 
 ## 👨‍💻 Author
 
-**Sphurthhi Pudupakam** *Aspiring Data Analyst | Machine Learning Enthusiast* - **GitHub:** [https://github.com/Sphurrthinaaidu-09](https://github.com/Sphurrthinaaidu-09)  
+**Sphurthhi Pudupakam** *Aspiring Data Analyst | Machine Learning Enthusiast* 
+- **GitHub:** [https://github.com/Sphurrthinaaidu-09]  
 
 ---
 
