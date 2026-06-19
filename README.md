@@ -194,44 +194,73 @@ This transforms raw customer reviews into strategic business intelligence.
 ## 📸 Application Screenshots
 
 <details>
-<summary> 1. Individual Review Analysis Terminal (Click to Expand)</summary>
+<summary> 1. Individual Review Analysis Ingestion Panel (Click to Expand)</summary>
 <p align="center">
-  <strong>Empty Ingestion Interface:</strong><br>
-  <img width="1600" height="765" alt="Empty Ingestion Interface" src="https://github.com/user-attachments/assets/4d637489-7da6-449f-98d3-4ff4fca1a308" />
-
-  <br><br>
-  <strong>Real-Time Categorization & Recommendation Output:</strong><br>
-  <img width="1600" height="765" alt="Real-Time Processing" src="https://github.com/user-attachments/assets/c1c70f76-7677-4798-90e5-590576546aeb" />
+  <strong>Live Single-Review Text Input Interface:</strong><br>
+  <img width="1600" alt="Individual Review Entry Interface" src="<img width="1763" height="844" alt="1 (2)" src="https://github.com/user-attachments/assets/c96310ac-d01d-427a-a77b-4306a2cd7bd2" />
+" />
+  <br><em>A dedicated interactive input sandbox allowing users to type or paste a custom customer review string to test model inferences on the fly.</em>
 </p>
 </details>
 
 <details>
-<summary> 2. Bulk Dataset Upload & Pipeline Execution (Click to Expand)</summary>
+<summary> 2. Real-Time Single Review Output Terminal (Click to Expand)</summary>
 <p align="center">
-  <strong>CSV Dataset Ingestion & Target Column Selection:</strong><br>
-  <img width="1600" height="765" alt="Dataset Ingestion" src="https://github.com/user-attachments/assets/71e5772f-4703-486c-ab2b-85276b766acf" />
-  <br><br>
-  <strong>Batch Processing Completed with Download Utility:</strong><br>
-  <img width="1600" height="765" alt="Batch Processing Complete" src="https://github.com/user-attachments/assets/9a70c8e6-5d95-46ab-9666-ae60dc91ab66" />
+  <strong>Sentiment Classification & Actionable Insights Engine:</strong><br>
+  <img width="1600" alt="Real-Time Sentiment Extraction" src="<img width="1763" height="844" alt="2" src="https://github.com/user-attachments/assets/6b1acdd3-9104-4b85-b4b7-c462ec592639" />
+" />
+  <br><em>Displays immediate, token-mapped categorization results alongside strategic business rules and prescriptive product optimization recommendations.</em>
 </p>
 </details>
 
 <details>
-<summary> 3. Executive Dashboard Insights & Key Metrics (Click to Expand)</summary>
+<summary> 3. Bulk Dataset Upload & Configuration Workspace (Click to Expand)</summary>
 <p align="center">
-  <strong>High-Level Summary Tiles & Sentiment Flags:</strong><br>
-  <img width="1600" height="765" alt="Dashboard Metrics" src="https://github.com/user-attachments/assets/38f396c9-51aa-4aa6-a7d1-9b4c3a2d2c0a" />
+  <strong>CSV Dataset Ingestion & Target Variable Mapping:</strong><br>
+  <img width="1600" alt="CSV Batch Data Upload" src="<img width="1763" height="844" alt="3" src="https://github.com/user-attachments/assets/989cc5bb-acd8-4831-b43c-888d91b2b397" />
+" />
+  <br><em>Batch ingestion hub supporting multi-row CSV files where users can dynamically select, map, and structure incoming text columns for pipeline execution.</em>
 </p>
 </details>
 
 <details>
-<summary> 4. Data Visualizations & Trend Analytics (Click to Expand)</summary>
+<summary> 4. Automated AI Core Insights Dashboard (Click to Expand)</summary>
 <p align="center">
-  <strong>Pareto Distribution of Core Product Weaknesses (Issue Frequency):</strong><br>
-  <img width="1600" height="765" alt="Pareto Issue Charts" src="https://github.com/user-attachments/assets/4cb1b79b-ac4b-4a30-a4d2-11ec54731780" />
-  <br><br>
-  <strong>Proportional Macro Sentiment Share (Positive vs. Negative):</strong><br>
-  <img width="1600" height="765" alt="Sentiment Share Distribution" src="https://github.com/user-attachments/assets/f058d457-4d11-44d8-ace2-281e288eafa0" />
+  <strong>High-Level Performance Metric Summaries & Operational Flags:</strong><br>
+  <img width="1600" alt="Executive Summary KPIs" src="<img width="1763" height="844" alt="4" src="https://github.com/user-attachments/assets/2e0d9615-49d2-48f8-a2c1-b22d230272f5" />
+" height="844" alt="4" src="https://github.com/user-attachments/assets/c77107c2-21b4-4547-bfdb-7ce4ae035c0b" />
+" />
+  <br><em>An executive monitoring space tracking holistic volumes, overall average rating distributions, and dynamically generated feedback friction vectors.</em>
+</p>
+</details>
+
+<details>
+<summary> 5. Pareto Product Issue Breakdown Chart (Click to Expand)</summary>
+<p align="center">
+  <strong>Categorical Product Weakness Distribution Frequencies:</strong><br>
+  <img width="1600" alt="Pareto Issue Categorization Chart" src="<img width="1763" height="844" alt="5" src="https://github.com/user-attachments/assets/b03ec974-c73f-49af-a1f5-6eedf6ce76d3" />
+" />
+  <br><em>An automated analytics bar chart that sorts and presents negative occurrences, grouping raw complaints by structural feature categories for root-cause isolation.</em>
+</p>
+</details>
+
+<details>
+<summary> 6. Proportional Macro Sentiment Distribution (Click to Expand)</summary>
+<p align="center">
+  <strong>Aggregated Sentiment Share Metrics Panel:</strong><br>
+  <img width="1600" alt="Sentiment Pie Chart Breakdown" src="<img width="1763" height="844" alt="6" src="https://github.com/user-attachments/assets/241186dd-815c-414b-97ae-64c0bf90c934" />
+" />
+  <br><em>A clean, intuitive chart layout displaying proportional positive vs. negative volume trends across the entire processed corpus.</em>
+</p>
+</details>
+
+<details>
+<summary> 7. Downstream Data Export Pipeline Hub (Click to Expand)</summary>
+<p align="center">
+  <strong>Integrated Session Compilation Management Terminal:</strong><br>
+  <img width="1600" alt="Data Export Hub" src="<img width="1763" height="844" alt="7" src="https://github.com/user-attachments/assets/e7592110-33d8-4f57-87af-eb62852f8b4d" />
+" />
+  <br><em>Data export matrix allowing stakeholders to download structured, newly labeled CSV artifacts as granular sentiment ledgers or cross-tabulated executive reports.</em>
 </p>
 </details>
 
@@ -271,6 +300,8 @@ Enterprise Cloud Deployment: Scaling local software runtimes into highly secure,
 Advanced Analytics Dashboard: Introducing dynamic web charts and graph visualization panels for deeper business intelligence tracking over time.
 
 ## 👨‍💻 Author
-Sphurrthi Naidu Aspiring Data Analyst | Machine Learning Enthusiast - GitHub: [https://github.com/Sphurrthinaaidu-09]
+Sphurrthi Naidu Aspiring Data Analyst | Machine Learning Enthusiast 
+GitHub: [https://github.com/Sphurrthinaaidu-09]
+
 ⭐ If you found this project useful, consider giving the repository a star!
 
