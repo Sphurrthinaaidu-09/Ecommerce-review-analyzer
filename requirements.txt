@@ -7,3 +7,4 @@ joblib
 seaborn
 streamlit-option-menu
 plotly
+wordcloud
