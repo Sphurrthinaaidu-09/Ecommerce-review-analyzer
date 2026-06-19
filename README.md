@@ -9,7 +9,7 @@ An end-to-end Natural Language Processing (NLP) and Machine Learning application
   <img src="https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge">
 </p>
 <p align="center">
-    <a href="https://ecommerce-review-analyzer-gurd4tuxeqrcjv3ttmfzz8.streamlit.app/">Live Demo</a> 
+    <a href="https://ecommerce-review-analyzer-2bfc7zdvw6yjz2xhuetyns.streamlit.app/">Live Demo</a> 
 </p>
 
 ---
