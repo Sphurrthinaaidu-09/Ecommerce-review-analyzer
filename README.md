@@ -7,7 +7,8 @@ An end-to-end Natural Language Processing (NLP) and Machine Learning application
   <img src="https://img.shields.io/badge/Machine%20Learning-NLP-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Streamlit-Deployed-red?style=for-the-badge">
-</p><p align="center">
+</p>
+<p align="center">
     <a href="https://ecommerce-review-analyzer-gurd4tuxeqrcjv3ttmfzz8.streamlit.app/">Live Demo</a> 
 </p>
 
@@ -42,7 +43,7 @@ This system helps businesses move from reactive customer support to proactive pr
 
 ## ⚙️ System Workflow
 
-###  Step 1: Customer Review Ingestion
+### Step 1: Customer Review Ingestion
 The platform supports two modes of analysis.
 
 #### 👤 Individual Review Assessment
@@ -55,36 +56,36 @@ Organizations can upload an entire CSV file containing thousands of customer rev
 
 ---
 
-###  Step 2: NLP Processing Pipeline
+### Step 2: NLP Processing Pipeline
 Incoming reviews undergo multiple processing stages.
 - **Text Cleaning:** Converts text to lowercase, removes special characters, and eliminates unnecessary noise.
 - **Feature Engineering:** Customer reviews are converted into numerical representations using **TF-IDF (Term Frequency–Inverse Document Frequency)**, allowing machine learning models to understand textual patterns.
 
 ---
 
-###  Step 3: Sentiment Prediction Engine
+### Step 3: Sentiment Prediction Engine
 The processed reviews are passed through trained Machine Learning models (Logistic Regression, Support Vector Machine, or Naive Bayes) to accurately classify the sentiment baseline:
 - 😊 Positive Review
 - 😞 Negative Review
 
 ---
 
-###  Step 4: Product Issue Detection
+### Step 4: Product Issue Detection
 For negative reviews, the application performs issue categorization using NLP-based keyword mapping. Detected issue categories include:
--  Battery & Charging
--  Connectivity
--  Performance
--  Hardware Failure
--  Compatibility
--  Price & Value
--  Product Quality
--  User Interface & Controls
+- Battery & Charging
+- Connectivity
+- Performance
+- Hardware Failure
+- Compatibility
+- Price & Value
+- Product Quality
+- User Interface & Controls
 
 This helps organizations identify the root causes behind customer dissatisfaction.
 
 ---
 
-###  Step 5: Recommendation Engine
+### Step 5: Recommendation Engine
 The application automatically generates actionable recommendations based on detected issues:
 - **Battery Issues:** *"Improve battery efficiency and charging reliability."*
 - **Performance Issues:** *"Optimize software performance and reduce lag."*
@@ -94,20 +95,18 @@ This transforms raw customer complaints into practical improvement strategies.
 
 ---
 
-###  Step 6: Executive Analytics Dashboard
+### Step 6: Executive Analytics Dashboard
 For bulk review analysis, the platform generates business-friendly dashboards:
+- **Automated AI Core Insights:** Dynamically parses text configurations to pull the *Primary Operational Driver*, pinpoint *Friction Vectors*, and construct a *Dynamic Business Recommendation* without relying on hardcoded rules.
 - **Sentiment Distribution:** Tracks positive vs. negative distributions alongside percentage breakdowns.
-- **Issue Frequency Analysis:** Identifies the most common complaints, product weaknesses, and customer pain points.
-- **Top Customer Concerns:** Ranks issue categories by occurrence frequency, enabling product managers to prioritize improvements.
+- **Issue Frequency Analysis:** Identifies the most common complaints, product weaknesses, and customer pain points using Pareto charting logic.
 
 ---
 
-###  Step 7: Exportable Intelligence Reports
-After analysis, users can download fully processed reports containing:
-- Review Text
-- Predicted Sentiment
-- Issue Category
-- Generated Recommendation
+### Step 7: Exportable Intelligence Reports
+After analysis, the integrated **Export Hub Pipeline** allows users to compile and download unique structural file layouts:
+1. **Calculated Sentiment Ledger:** Best for database loading; contains granular individual review text columns alongside newly appended dynamic text feature analysis tags.
+2. **Aggregated Executive Operational Logs:** Best for business stakeholders; generates a cross-tabulated performance metrics summary grouped cleanly by Product Line SKU.
 
 ---
 
@@ -115,39 +114,26 @@ After analysis, users can download fully processed reports containing:
 
 **Dataset:** Amazon Electronics Product Reviews Dataset
 
-### Dataset Characteristics:
-- Thousands of customer reviews across the Electronics product category.
-- Real-world, user-generated review text, ratings, and metadata.
-
-### Key Features Evaluated:
-- Age
-- Department
-- Job Role
-- Monthly Income
-- Job Satisfaction
-- Environment Satisfaction
-- Work-Life Balance
-- Overtime
-- Marital Status
-- Total Working Years
-- Years at Company
+### Target Inputs Evaluated:
+- **ReviewText:** Raw textual feedback containing qualitative customer opinions.
+- **Rating:** Numerical score metrics used to establish semantic ground truths.
+- **Product:** Unique product identifier / SKU lines for relational grouping layouts.
+- **Date:** Timestamps indicating when feedback text records were submitted.
 
 ---
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
 Several customer behavior patterns were identified during analytics mapping:
--  Battery-related complaints were among the most frequent negative review categories.
--  Performance-related issues significantly influenced customer dissatisfaction.
--  Connectivity problems frequently appeared in wireless devices.
--  Positive reviews were primarily associated with usability and product experience.
+- Battery-related complaints were among the most frequent negative review categories.
+- Performance-related issues significantly influenced customer dissatisfaction.
+- Connectivity problems frequently appeared in wireless devices.
+- Positive reviews were primarily associated with usability and product experience.
 
 ### Visualizations Implemented:
-- Employee Attrition Distribution
-- Department vs Attrition
-- Overtime vs Attrition
-- Job Satisfaction vs Attrition
-- Feature Importance Analysis
+- Proportional Macro Sentiment Share (Donut / Pie Breakdowns)
+- Pareto Distribution of Core Product Weaknesses (Categorical Bar Charts)
+- Product-Line Crosstab Matrix Outlines
 
 ---
 
@@ -199,7 +185,7 @@ This transforms raw customer reviews into strategic business intelligence.
 - **Programming Language:** Python
 - **NLP & Machine Learning:** Scikit-Learn, TF-IDF, Logistic Regression, Support Vector Machine, Naive Bayes
 - **Data Analysis:** Pandas, NumPy
-- **Visualization:** Matplotlib
+- **Visualization:** Matplotlib, Seaborn
 - **Model Persistence:** Joblib
 - **Deployment & Web App:** Streamlit
 
@@ -211,11 +197,11 @@ This transforms raw customer reviews into strategic business intelligence.
 <summary> 1. Individual Review Analysis Terminal (Click to Expand)</summary>
 <p align="center">
   <strong>Empty Ingestion Interface:</strong><br>
-  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 03 52 PM" src="https://github.com/user-attachments/assets/4d637489-7da6-449f-98d3-4ff4fca1a308" />
+  <img width="1600" height="765" alt="Empty Ingestion Interface" src="https://github.com/user-attachments/assets/4d637489-7da6-449f-98d3-4ff4fca1a308" />
 
   <br><br>
   <strong>Real-Time Categorization & Recommendation Output:</strong><br>
-  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 03 52 PM (1)" src="https://github.com/user-attachments/assets/c1c70f76-7677-4798-90e5-590576546aeb" />
+  <img width="1600" height="765" alt="Real-Time Processing" src="https://github.com/user-attachments/assets/c1c70f76-7677-4798-90e5-590576546aeb" />
 </p>
 </details>
 
@@ -223,10 +209,10 @@ This transforms raw customer reviews into strategic business intelligence.
 <summary> 2. Bulk Dataset Upload & Pipeline Execution (Click to Expand)</summary>
 <p align="center">
   <strong>CSV Dataset Ingestion & Target Column Selection:</strong><br>
-  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 03 52 PM (2)" src="https://github.com/user-attachments/assets/71e5772f-4703-486c-ab2b-85276b766acf" />
+  <img width="1600" height="765" alt="Dataset Ingestion" src="https://github.com/user-attachments/assets/71e5772f-4703-486c-ab2b-85276b766acf" />
   <br><br>
   <strong>Batch Processing Completed with Download Utility:</strong><br>
-  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 22 46 PM" src="https://github.com/user-attachments/assets/9a70c8e6-5d95-46ab-9666-ae60dc91ab66" />
+  <img width="1600" height="765" alt="Batch Processing Complete" src="https://github.com/user-attachments/assets/9a70c8e6-5d95-46ab-9666-ae60dc91ab66" />
 </p>
 </details>
 
@@ -234,7 +220,7 @@ This transforms raw customer reviews into strategic business intelligence.
 <summary> 3. Executive Dashboard Insights & Key Metrics (Click to Expand)</summary>
 <p align="center">
   <strong>High-Level Summary Tiles & Sentiment Flags:</strong><br>
-  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 03 52 PM (3)" src="https://github.com/user-attachments/assets/38f396c9-51aa-4aa6-a7d1-9b4c3a2d2c0a" />
+  <img width="1600" height="765" alt="Dashboard Metrics" src="https://github.com/user-attachments/assets/38f396c9-51aa-4aa6-a7d1-9b4c3a2d2c0a" />
 </p>
 </details>
 
@@ -242,10 +228,10 @@ This transforms raw customer reviews into strategic business intelligence.
 <summary> 4. Data Visualizations & Trend Analytics (Click to Expand)</summary>
 <p align="center">
   <strong>Pareto Distribution of Core Product Weaknesses (Issue Frequency):</strong><br>
-  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 03 52 PM (4)" src="https://github.com/user-attachments/assets/4cb1b79b-ac4b-4a30-a4d2-11ec54731780" />
+  <img width="1600" height="765" alt="Pareto Issue Charts" src="https://github.com/user-attachments/assets/4cb1b79b-ac4b-4a30-a4d2-11ec54731780" />
   <br><br>
   <strong>Proportional Macro Sentiment Share (Positive vs. Negative):</strong><br>
-  <img width="1600" height="765" alt="WhatsApp Image 2026-06-13 at 9 03 52 PM (5)" src="https://github.com/user-attachments/assets/f058d457-4d11-44d8-ace2-281e288eafa0" />
+  <img width="1600" height="765" alt="Sentiment Share Distribution" src="https://github.com/user-attachments/assets/f058d457-4d11-44d8-ace2-281e288eafa0" />
 </p>
 </details>
 
@@ -253,46 +239,12 @@ This transforms raw customer reviews into strategic business intelligence.
 
 ## 📁 Project Structure
 
+```text
 Ecommerce_Review_Project/
-
-├── app.py                  
-├── eda.py                  
-├── sentiment_model.pkl     
-├── tfidf_vectorizer.pkl    
-├── requirements.txt       
-└── README.md               
-
----
-
-## 🎓 Skills Demonstrated
-
-Through this project, I gained and applied practical experience in:
-
-- **Natural Language Processing (NLP):** Working with token-level tokenization pipelines, textual data cleanups, and string preprocessing techniques.
-- **Text Classification:** Designing and configuring machine learning classification pipelines to systematically sort unstructured strings into discrete categorical labels.
-- **Feature Engineering (TF-IDF):** Converting complex raw text corpuses into highly balanced, numerical spatial feature vectors using Term Frequency-Inverse Document Frequency.
-- **Sentiment Analysis & Machine Learning:** Training, isolating, optimizing, and deploying multi-class algorithmic text classifiers.
-- **Business Analytics & Customer Intelligence:** Bridging raw model sentiment probabilities with prescriptive actionable recommendations for product engineering teams.
-- **Dashboard Development & Streamlit Deployment:** Serving interactive, production-ready analytics software applications to make machine learning models accessible to business stakeholders.
-
----
-
-## 🔮 Future Enhancements
-
-- **Transformer-Based Models (BERT):** Integrating deep learning context modeling to capture complex semantic patterns and contextual subtleties in customer reviews.
-- **Aspect-Based Sentiment Analysis (ABSA):** Evaluating varying sub-sentiments across multiple product features or attributes mentioned inside a single review sentence.
-- **Multi-Language Review Support:** Localizing preprocessing and modeling pipelines to analyze international customer feedback logs seamlessly.
-- **Real-Time Customer Monitoring:** Directing automated data streaming pipelines to monitor live API market review ingestion streams continuously.
-- **Enterprise Cloud Deployment:** Scaling local software runtimes into highly secure, containerized, and isolated cloud network environments.
-- **Advanced Analytics Dashboard:** Introducing dynamic web charts and graph visualization panels for deeper business intelligence tracking over time.
-
----
-
-## 👨‍💻 Author
-
-**Sphurthhi Pudupakam** *Aspiring Data Analyst | Machine Learning Enthusiast* 
-- **GitHub:** [https://github.com/Sphurrthinaaidu-09]  
-
----
-
-⭐ If you found this project useful, consider giving the repository a star!
+│
+├── app.py                  # Main Streamlit Application UI & Pipelines
+├── eda.py                  # Analytical exploration scripts & charting
+├── sentiment_model.pkl     # Persisted baseline ML classifier weights
+├── tfidf_vectorizer.pkl    # Serialized Text Vectorization configurations
+├── requirements.txt        # Managed software package dependencies
+└── README.md               # Portfolio presentation file
