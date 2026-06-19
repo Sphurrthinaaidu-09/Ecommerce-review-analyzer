@@ -194,73 +194,65 @@ This transforms raw customer reviews into strategic business intelligence.
 ## 📸 Application Screenshots
 
 <details>
-<summary> 1. Individual Review Analysis Ingestion Panel (Click to Expand)</summary>
-<p align="center">
-  <strong>Live Single-Review Text Input Interface:</strong><br>
-  <img width="1600" alt="Individual Review Entry Interface" src="<img width="1763" height="844" alt="1 (2)" src="https://github.com/user-attachments/assets/c96310ac-d01d-427a-a77b-4306a2cd7bd2" />
-" />
-  <br><em>A dedicated interactive input sandbox allowing users to type or paste a custom customer review string to test model inferences on the fly.</em>
-</p>
-</details>
-
-<details>
-<summary> 2. Real-Time Single Review Output Terminal (Click to Expand)</summary>
-<p align="center">
-  <strong>Sentiment Classification & Actionable Insights Engine:</strong><br>
-  <img width="1600" alt="Real-Time Sentiment Extraction" src="<img width="1763" height="844" alt="2" src="https://github.com/user-attachments/assets/6b1acdd3-9104-4b85-b4b7-c462ec592639" />
-" />
-  <br><em>Displays immediate, token-mapped categorization results alongside strategic business rules and prescriptive product optimization recommendations.</em>
-</p>
-</details>
-
-<details>
-<summary> 3. Bulk Dataset Upload & Configuration Workspace (Click to Expand)</summary>
+<summary> 1. Home Gateway & Enterprise Data Ingestion Interface (Click to Expand)</summary>
 <p align="center">
   <strong>CSV Dataset Ingestion & Target Variable Mapping:</strong><br>
-  <img width="1600" alt="CSV Batch Data Upload" src="<img width="1763" height="844" alt="3" src="https://github.com/user-attachments/assets/989cc5bb-acd8-4831-b43c-888d91b2b397" />
-" />
-  <br><em>Batch ingestion hub supporting multi-row CSV files where users can dynamically select, map, and structure incoming text columns for pipeline execution.</em>
+  <img src="https://github.com/user-attachments/assets/c96310ac-d01d-427a-a77b-4306a2cd7bd2" width="100%" alt="Enterprise Data Ingestion Interface" />
+  <br><em>Batch ingestion hub supporting multi-row CSV files where users can seamlessly parse document structural matrices and track processing footprints.</em>
 </p>
 </details>
 
 <details>
-<summary> 4. Automated AI Core Insights Dashboard (Click to Expand)</summary>
+<summary> 2. Dashboard Workspace & Executive Operations Terminal (Click to Expand)</summary>
 <p align="center">
   <strong>High-Level Performance Metric Summaries & Operational Flags:</strong><br>
-  <img width="1600" alt="Executive Summary KPIs" src="<img width="1763" height="844" alt="4" src="https://github.com/user-attachments/assets/2e0d9615-49d2-48f8-a2c1-b22d230272f5" />
-" height="844" alt="4" src="https://github.com/user-attachments/assets/c77107c2-21b4-4547-bfdb-7ce4ae035c0b" />
-" />
-  <br><em>An executive monitoring space tracking holistic volumes, overall average rating distributions, and dynamically generated feedback friction vectors.</em>
+  <img src="https://github.com/user-attachments/assets/6b1acdd3-9104-4b85-b4b7-c462ec592639" width="100%" alt="Executive Operations Terminal" />
+  <br><em>An executive monitoring space calculating operations volume, average score grades, customer health indexes, and automated AI core insights in runtime.</em>
 </p>
 </details>
 
 <details>
-<summary> 5. Pareto Product Issue Breakdown Chart (Click to Expand)</summary>
+<summary> 3. Structural Data View & Active Cache Master Registry (Click to Expand)</summary>
 <p align="center">
-  <strong>Categorical Product Weakness Distribution Frequencies:</strong><br>
-  <img width="1600" alt="Pareto Issue Categorization Chart" src="<img width="1763" height="844" alt="5" src="https://github.com/user-attachments/assets/b03ec974-c73f-49af-a1f5-6eedf6ce76d3" />
-" />
-  <br><em>An automated analytics bar chart that sorts and presents negative occurrences, grouping raw complaints by structural feature categories for root-cause isolation.</em>
+  <strong>Ingested Data Streams Master Matrix Table:</strong><br>
+  <img src="https://github.com/user-attachments/assets/989cc5bb-acd8-4831-b43c-888d91b2b397" width="100%" alt="Active Cache Master Registry" />
+  <br><em>A direct validation sandbox allowing developers and stakeholders to cross-reference and skim raw parsed transaction records alongside review length evaluations.</em>
 </p>
 </details>
 
 <details>
-<summary> 6. Proportional Macro Sentiment Distribution (Click to Expand)</summary>
+<summary> 4. Sentiment Playground (Click to Expand)</summary>
 <p align="center">
-  <strong>Aggregated Sentiment Share Metrics Panel:</strong><br>
-  <img width="1600" alt="Sentiment Pie Chart Breakdown" src="<img width="1763" height="844" alt="6" src="https://github.com/user-attachments/assets/241186dd-815c-414b-97ae-64c0bf90c934" />
-" />
-  <br><em>A clean, intuitive chart layout displaying proportional positive vs. negative volume trends across the entire processed corpus.</em>
+  <strong>Live Single-Review Text Input Interface:</strong><br>
+  <img src="https://github.com/user-attachments/assets/2e0d9615-49d2-48f8-a2c1-b22d230272f5" width="100%" alt="Real-Time Sentiment Playground" />
+  <br><em>An ad-hoc interactive testing environment built to instantly execute classification pipeline steps for an individual custom customer text line.</em>
 </p>
 </details>
 
 <details>
-<summary> 7. Downstream Data Export Pipeline Hub (Click to Expand)</summary>
+<summary> 5. Visual Deck Analytics Dashboard (Click to Expand)</summary>
 <p align="center">
-  <strong>Integrated Session Compilation Management Terminal:</strong><br>
-  <img width="1600" alt="Data Export Hub" src="<img width="1763" height="844" alt="7" src="https://github.com/user-attachments/assets/e7592110-33d8-4f57-87af-eb62852f8b4d" />
-" />
-  <br><em>Data export matrix allowing stakeholders to download structured, newly labeled CSV artifacts as granular sentiment ledgers or cross-tabulated executive reports.</em>
+  <strong>Granular Segmentation Matrices & Visual Distribution Panels:</strong><br>
+  <img src="https://github.com/user-attachments/assets/b03ec974-c73f-49af-a1f5-6eedf6ce76d3" width="100%" alt="Visual Analytics Deck" />
+  <br><em>Plots macro sentiment distribution shares using proportional charts alongside item-by-item volume tracking arrays.</em>
+</p>
+</details>
+
+<details>
+<summary> 6. Review Matrix Grid Explorer (Click to Expand)</summary>
+<p align="center">
+  <strong>Discovered Operational Registry Indices & Core Filtering:</strong><br>
+  <img src="https://github.com/user-attachments/assets/241186dd-815c-414b-97ae-64c0bf90c934" width="100%" alt="Review Matrix Grid Explorer" />
+  <br><em>Granular data discovery deck utilizing keyword substring search maps and categorical filters to rapidly review parsed system targets.</em>
+</p>
+</details>
+
+<details>
+<summary> 7. Downstream Report Export Pipeline Center (Click to Expand)</summary>
+<p align="center">
+  <strong>Integrated Session Compilation Export Terminal:</strong><br>
+  <img src="https://github.com/user-attachments/assets/e7592110-33d8-4f57-87af-eb62852f8b4d" width="100%" alt="Downstream Report Export Pipeline Center" />
+  <br><em>Session transform compiling station enabling structured file outputs as Granular Sentiment Ledgers or Aggregated Executive Logs.</em>
 </p>
 </details>
 
