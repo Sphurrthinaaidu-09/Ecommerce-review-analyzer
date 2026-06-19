@@ -239,7 +239,6 @@ This transforms raw customer reviews into strategic business intelligence.
 
 ## 📁 Project Structure
 
-```text
 Ecommerce_Review_Project/
 │
 ├── app.py                  # Main Streamlit Application UI & Pipelines
@@ -248,3 +247,30 @@ Ecommerce_Review_Project/
 ├── tfidf_vectorizer.pkl    # Serialized Text Vectorization configurations
 ├── requirements.txt        # Managed software package dependencies
 └── README.md               # Portfolio presentation file
+
+---
+
+## 🎓 Skills Demonstrated
+
+Through this project, I gained and applied practical experience in:
+Natural Language Processing (NLP): Working with token-level tokenization pipelines, textual data cleanups, and string preprocessing techniques.
+Text Classification: Designing and configuring machine learning classification pipelines to systematically sort unstructured strings into discrete categorical labels.
+Feature Engineering (TF-IDF): Converting complex raw text corpuses into highly balanced, numerical spatial feature vectors using Term Frequency-Inverse Document Frequency.
+Sentiment Analysis & Machine Learning: Training, isolating, optimizing, and deploying multi-class algorithmic text classifiers.
+Business Analytics & Customer Intelligence: Bridging raw model sentiment probabilities with prescriptive actionable recommendations for product engineering teams.
+Dashboard Development & Streamlit Deployment: Serving interactive, production-ready analytics software applications to make machine learning models accessible to business stakeholders.
+
+---
+
+## 🔮 Future Enhancements
+Transformer-Based Models (BERT): Integrating deep learning context modeling to capture complex semantic patterns and contextual subtleties in customer reviews.
+Aspect-Based Sentiment Analysis (ABSA): Evaluating varying sub-sentiments across multiple product features or attributes mentioned inside a single review sentence.
+Multi-Language Review Support: Localizing preprocessing and modeling pipelines to analyze international customer feedback logs seamlessly.
+Real-Time Customer Monitoring: Directing automated data streaming pipelines to monitor live API market review ingestion streams continuously.
+Enterprise Cloud Deployment: Scaling local software runtimes into highly secure, containerized, and isolated cloud network environments.
+Advanced Analytics Dashboard: Introducing dynamic web charts and graph visualization panels for deeper business intelligence tracking over time.
+
+## 👨‍💻 Author
+Sphurrthi Naidu Aspiring Data Analyst | Machine Learning Enthusiast - GitHub: [https://github.com/Sphurrthinaaidu-09]
+⭐ If you found this project useful, consider giving the repository a star!
+
